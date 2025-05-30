@@ -22,9 +22,29 @@
 }
 
 /* Corpo da página */
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+body {    background-color: var(--background-color);
+    color: var(--text-color);/* código omitido */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
     line-height: 1.6;
 }
 
