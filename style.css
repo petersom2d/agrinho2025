@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
 
 /* Variáveis */
 :root {
@@ -12,7 +11,48 @@
     --font-titulo: "Rakkas", serif;
 }
 
-/* código/* código omitido */
+/* código omitido */ /* código omitido */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3 {
+    margin-top: 25px;<!-- código omitido -->
+
+<img src="cataratas-do-iguac.jpg" alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada.">
+
+<!-- código omitido -->
+}
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 90%;
+}
+/* código omitido */ button {
+  background-color: ______;
+  color: ______;
+  border-radius: ______;
+  transition: ______;
+}
+
+button:hover {
+  ________________: #2980b9;
+}
 
 /* Reset */
 * {
@@ -41,4 +81,5 @@ img {
     max-width: 90%;
 }
 
-/* código omitido */ omitido */
+/* código omitido */
+/* código omitido */ 
